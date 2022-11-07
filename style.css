@@ -33,7 +33,7 @@ header > h1 {
     padding-top: 35px;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 4.7em;
+    font-size: 4em;
     letter-spacing: 1px;
 }
 
@@ -80,7 +80,7 @@ section.imagem {
 
 section.imagem > p {
     width: 300px;
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
     border-radius: 7px;
     background-color: rgba(0, 0, 0, 0.466);
     text-shadow: 1px 1px 1px black;
@@ -88,6 +88,7 @@ section.imagem > p {
 
 section#img01 {
     background-image: url('./imagens/background001.jpg');
+    background-size: right center;
 }
 
 section#img02 {
